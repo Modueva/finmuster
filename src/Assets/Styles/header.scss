@@ -1,0 +1,33 @@
+.header {
+    height: 200px;
+    background-color: #fff;
+    .header__main{
+       padding: 20px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .contacts{
+            .number{
+                margin-right: 20px;
+                color: rgba(15, 15, 15, 0.7)
+            }
+            .btn{
+                padding: 6px  21px ;
+               background-color:  #7A0CE8;
+                border: 1px solid #7A0CE8;
+                border-radius: 7px;
+                color: #fff;
+                font-size: 12px;
+                margin-right: 20px;
+            }
+            .btn:hover{
+                background-color:  #fff;
+                color: #7A0CE8;
+            }
+        }
+    }
+    hr{
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    
+}

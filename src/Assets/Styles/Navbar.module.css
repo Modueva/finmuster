@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    padding: 35px 0px;
+}
+
+.item a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.item a:hover{
+    color: #7A0CE8;
+}

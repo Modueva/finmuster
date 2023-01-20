@@ -1,0 +1,14 @@
+@import "./footer.scss";
+@import "./header.scss";
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{   
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: calc(100vh - 125px);
+}
